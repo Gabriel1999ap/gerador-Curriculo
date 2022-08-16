@@ -1,0 +1,93 @@
+.bodyPrincipal {
+    background-color: #4B7399;
+    font-family: Verdana, Helvetica, Arial;
+    font-size: 14px;
+  }
+
+  .box-header1{
+    border-bottom: solid;
+    border-bottom-color: #00643A;
+  }
+  
+  #containerPrincipal {
+    width: 75%;
+    margin: 0 auto;
+    background-color: #FFF;
+    padding: 20px 40px;
+    border: solid 1px black;
+    margin-top: 20px;
+  }
+  .btn-default{
+   border-color: #000101;
+   margin-left: 5px;
+   background-color: #00643A;
+   color: #FFF;
+   
+  }
+  .btn-default:hover{
+    background-color: #024328;
+    transform: scale(1.1);
+    transition: all 0.3s;
+    color: #FFF;
+  }
+  .tituloH01{
+    font-size: 28px;
+  
+  }
+
+  .tituloH1{
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+ 
+  .link {
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: #183b5b;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .consultaCurriculo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .consultaCurriculo:hover {
+    background-color: #cccccc;
+  }
+  
+  .curriculoInd{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .botao {
+    padding: 5px;
+    background-color: rgb(65, 113, 158);
+    color: #ffffff;
+    font-weight: bold;
+    border: solid 1px rgb(4, 58, 109);
+  }
+  
+  .campo-form {
+    margin: 10px 0;
+    display: block;
+  }
+  
+  .botao-block {
+    display: block;
+    width: max-content;
+  }
